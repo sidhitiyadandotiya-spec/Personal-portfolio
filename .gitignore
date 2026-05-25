@@ -1,35 +1,29 @@
-# Dependencies
-node_modules/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-# OS generated files
-.DS_Store
-Thumbs.db
-ehthumbs.db
-Desktop.ini
+# Virtual environments
+venv/
+env/
+.env
 
-# Editor / IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+# Flask
+instance/
+.webassets-cache
 
-# Build output
+# Distribution / packaging
 dist/
 build/
-*.min.js
-*.min.css
+*.egg-info/
 
-# Logs
-*.log
-npm-debug.log*
-
-# Environment files
+# Environments
 .env
-.env.local
-.env.*.local
 
-# Misc
-*.tmp
-*.bak
-*.orig
+# VS Code / IDEs
+.vscode/
+.idea/
+
+# OS specific files
+.DS_Store
+Thumbs.db
